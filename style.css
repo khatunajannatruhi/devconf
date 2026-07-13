@@ -365,3 +365,66 @@ body {
     color: var(--text-gray);
     font-size: 15px;
 }
+
+/* Footer Area */
+.main-footer {
+    background-color: #001122;
+    color: var(--white);
+    padding: 60px 0 30px;
+}
+
+.footer-content-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo-img {
+    height: 32px;
+}
+
+.footer-brand-name {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.footer-social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--white);
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+    background-color: var(--brand-blue);
+}
+
+.footer-separator {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+.footer-copy-text {
+    text-align: center;
+    color: #888888;
+    font-size: 14px;
+}
